@@ -1,12 +1,12 @@
 class Tnj < Formula
   desc "Tasks, Notes, Journal - A lightweight terminal-based application"
   homepage "https://github.com/mikenorusis/tnj"
-  version "0.1.8"
+  version "0.1.9"
 
   on_macos do
     on_intel do
-       url "https://github.com/mikenorusis/tnj/releases/download/v#{version}/tnj-macos-x86_64"
-      sha256 "3798ed3c9fb255a392fdc2345220a9524d9b56ff552377adf511a2afc28409e4"
+       url "https://github.com/mikenorusis/tnj/archive/refs/tags/v0.1.9.tar.gz"
+      sha256 "baa688e9058b1bf97be81ed9c74d3332b10b38c31b851c423542c935d76cf172"
     end
     on_arm do
       url "https://github.com/mikenorusis/tnj/releases/download/v#{version}/tnj-macos-aarch64"
