@@ -6,7 +6,7 @@ class Tnj < Formula
   on_macos do
     on_intel do
       url "https://github.com/mikenorusis/tnj/releases/download/v#{version}/tnj-macos-x86_64"
-      sha256 "YOUR_X86_64_SHA256_HERE"
+      sha256 "ddf258ccbf558e2c9a08aa63e82056e6970f6b44bc074cb33e5b2dac1ae7ce77"
     end
     on_arm do
       url "https://github.com/mikenorusis/tnj/releases/download/v#{version}/tnj-macos-aarch64"
