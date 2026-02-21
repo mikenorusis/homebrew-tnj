@@ -1,10 +1,10 @@
 class Tnj < Formula
   desc "Tasks, Notes, Journal - A lightweight terminal-based application"
   homepage "https://github.com/mikenorusis/tnj"
-  version "0.1.16"  # Start with your current version
+  version "0.1.17"  # Start with your current version
 
-  url "https://github.com/mikenorusis/tnj/releases/download/v0.1.16/tnj-macos-universal"
-  sha256 "62af48bb5b80b1ec2acd13f33db094ca6040c69fe7d717ba5665fb653b2cc1f4"
+  url "https://github.com/mikenorusis/tnj/releases/download/v0.1.17/tnj-macos-universal"
+  sha256 "4e2492fa613d8bb48d69b789c5ed2b4802658093d6c855f156729e4b3eb78de8"
 
   def install
     bin.install "tnj-macos-universal" => "tnj"
